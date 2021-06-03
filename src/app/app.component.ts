@@ -15,7 +15,7 @@ class tempCity {
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  title: string = 'Temperature in Angular ' + VERSION.major;
+  title: string = 'Progetto POST-IT in Angular ' + VERSION.major;
   selezione: tempCity;
   cities: Array<tempCity> = [
     new tempCity('Torino','14'),
